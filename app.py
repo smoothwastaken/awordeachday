@@ -86,7 +86,7 @@ keys = {
 
     "accesstoken":os.getenv("ACCESS_TOKEN"), # Access Token
 
-    "accesstokensecret":os.getenv("API_KEY_SECRET") # Access Token Secret
+    "accesstokensecret":os.getenv("ACCESS_TOKEN_SECRET") # Access Token Secret
 
 }
 

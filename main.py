@@ -13,10 +13,10 @@ class PostTweet:
 
     def post(self):
         twitter_auth_keys = {
-            "consumer_key": "y99UGUcnIzaab5wBclpnDMB4v",
-            "consumer_secret": "VzhNnNKsbP02bKOnsoHX8OhmuoM66JSsWSGoQhiYu8VnCDJRgh",
-            "access_token": "1347838409843351552-TmR2XWCLPSjMODz6cU7iTnmjn2uoEo",
-            "access_token_secret": "sub42qLbTwfCDmv49uqxhugu14HaExSj0JEitifzBJauY"
+            "consumer_key":os.getenv("API_KEY"),
+            "consumer_secret":os.getenv("API_KEY_SECRET"),
+            "access_token":os.getenv("ACCESS_TOKEN"),
+            "access_token_secret":os.getenv("ACCESS_TOKEN_SECRET")
         }
 
         auth = tweepy.OAuthHandler(
