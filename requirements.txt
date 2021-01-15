@@ -1,0 +1,8 @@
+tweepy
+colorama
+dotenv
+bs4
+requests
+time
+os
+json
